@@ -1,0 +1,103 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+header {
+    background-color: #E6E6E6;
+    margin-bottom: 10rem;
+    background-image: url("../img/photo.jpg");
+    background-size: cover;
+    background-position-y: 90vh;
+    background-attachment: fixed;
+}
+
+header img {
+    width: 200px;
+    padding: 0.5rem;
+    display: flex;
+    margin-inline: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #2727276f;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.4rem;
+    font-size: 2.8rem;
+    padding: 1rem 0 1rem;
+}
+
+main{
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+    max-width: 70rem;
+    margin-inline: auto;
+}
+
+main h2 {
+    font-family: Poppins;
+    letter-spacing: 0.4rem;
+    color: #121111;
+    border-bottom: 2px solid #2727276f;
+    margin: 2.5rem 0 1rem 0;
+    padding: 0.25rem 0 0.25rem 1rem;
+}
+
+main section ul {
+    margin-left: 3rem;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+main section ul li, main section dl {
+    font-weight: bold;
+    font-style: italic;
+}
+
+main section dl {
+    margin-left: 2rem;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+main section ul li span, main section dd, main section dl span  {
+    font-weight: lighter;
+    font-style: normal;
+}
+
+main section dd {
+    margin-left: 7.1rem;
+    margin-bottom: 0.4rem;
+    color: rgb(55, 55, 55);
+}
+
+footer {
+    background-color: #151414;
+}
+
+footer p {
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+footer p img {
+    position: relative;
+    bottom: -0.3rem;
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(338deg) brightness(300%) contrast(100%);
+}
+
+footer a {
+    margin: 0 -1rem 0 3rem;
+}
