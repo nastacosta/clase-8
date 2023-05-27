@@ -9,18 +9,26 @@
 
 header {
     background-color: #E6E6E6;
-    margin-bottom: 10rem;
     background-image: url("../img/photo.jpg");
     background-size: cover;
     background-position-y: 90vh;
     background-attachment: fixed;
+    margin-bottom: 1rem;
 }
 
 header img {
+    transition: all ease 0.4s;
     width: 200px;
     padding: 0.5rem;
     display: flex;
     margin-inline: auto;
+    border-radius: 5%;
+    filter: brightness(90%);
+}
+
+header img:hover {
+    width: 300px;
+    filter: brightness(100%);
 }
 
 header h1 {
@@ -40,6 +48,45 @@ main{
     margin-bottom: 10rem;
     max-width: 70rem;
     margin-inline: auto;
+}
+
+.buttons-section {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-inline: auto;
+    width: 50%;
+    padding: 1rem 25% 1rem 25%;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.buttons-section button {
+    transition: all ease 0.2s;
+    white-space: nowrap;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 0.3rem;
+    border: 2px solid #2e2d2d;
+    color: #232121;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttons-section button:hover {
+    color: rgb(237, 237, 237);
+    background-color: #232121;
+}
+
+.divisor {
+    margin-bottom: 2rem;
+    width: 70%;
+    margin-inline: auto;
+    background-color: #1514146f;
+    height: 1px;
 }
 
 main h2 {
